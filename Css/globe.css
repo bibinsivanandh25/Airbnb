@@ -1,0 +1,47 @@
+#globeSection {
+  width: 100%;
+  background-color: #000;
+}
+
+#globeSection article {
+  background-color: #000;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.globeBlock {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0px #ccc;
+  display: none;
+}
+
+.globeBlock span {
+  float: left;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px;
+  border-radius: 1005;
+}
+
+.globeBlock span i {
+  color: #ff385c;
+}
+
+.globeBlock span:hover {
+  background-color: #efefef;
+  border-radius: 100%;
+}
+

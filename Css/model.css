@@ -1,0 +1,157 @@
+#modalSection {
+  width: 100%;
+  background-color: #000;
+}
+#modalSection article {
+  background-color: #000;
+  position: relative;
+}
+.modalBlock {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0px #ccc;
+  display: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.modalBlock span {
+  float: left;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px;
+  border-radius: 1005;
+}
+.modalBlock span i {
+  color: #111;
+}
+
+.modalContainer {
+  height: 60px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.modalContainer .modalContainer1 {
+  height: 60px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.modalContainer1 span {
+  flex-basis: 35%;
+  justify-content: flex-start;
+}
+.modalContainer1 h1 {
+  flex-basis: 65%;
+  font-size: 17px;
+}
+.modalContainer2 {
+  width: 100%;
+  overflow: scroll;
+  height: 400px;
+}
+.modalContainer3 {
+  width: 90%;
+  margin: 0 auto;
+  height: 400px;
+}
+.modalContainer3 h2 {
+  margin-top: 34px;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  margin-bottom: 24px;
+  cursor: default;
+}
+
+.modalContainer3 form {
+  width: 445px;
+}
+.modalContainer3 input {
+  width: 100%;
+  display: block;
+  padding: 0 10px;
+  height: 50px;
+  border: 1px solid rgb(168, 160, 160);
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.modalContainer3 p {
+  color: rgb(34, 34, 34);
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 8px;
+}
+.modalContainer3 p a {
+  color: rgb(34, 34, 34);
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 600;
+}
+.modalContainer3 button {
+  background: linear-gradient(
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  width: 100%;
+  display: block;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  margin-top: 18px;
+}
+.modalContainer3 button a {
+  color: #fff;
+}
+
+.orBlock {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  margin: 12px auto;
+  position: relative;
+  margin-top: 10px;
+}
+.orBlock strong {
+  border: none;
+  top: 0px;
+  padding: 10px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  position: absolute;
+  left: 44%;
+  z-index: 11111;
+  text-transform: lowercase;
+  background-color: #fff;
+  color: #999;
+}
+.authenticationBlock button:nth-child(1) {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.authenticationBlock button span {
+  flex-basis: 10%;
+}
+.authenticationBlock button a {
+  flex-basis: 80%;
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+}

@@ -1,0 +1,98 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+footer {
+  width: 100%;
+  background-color: #efefef;
+  height: 400px;
+}
+footer main {
+  width: 90%;
+  height: 400px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.footerContainer {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+}
+.footer1 {
+  flex-basis: 25%;
+  justify-content: flex-start;
+  height: 300px;
+}
+.footer2,
+.footer3,
+.footer4 {
+  flex-basis: 25%;
+  height: 300px;
+}
+.footer1 ul li a,
+.footer2 ul li a,
+.footer3 ul li a,
+.footer4 ul li a {
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.footer1 ul li,
+.footer2 ul li,
+.footer3 ul li,
+.footer4 ul li {
+  padding: 8px 0;
+}
+
+.footer1 h2,
+.footer2 h2,
+.footer3 h2,
+.footer4 h2 {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+aside .footerBottom1 {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+.footerBottom1 span:nth-child(2) {
+  margin-right: 6px;
+}
+.footerBottom1 ul,
+.footerBottom2 ul {
+  display: flex;
+}
+.footerBottom1 ul li a,
+.footerBottom2 ul li a {
+  text-decoration: none;
+  margin-right: 19px;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgb(34, 34, 34);
+}
+aside .footerBottom2 {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+}
+.footerBottom2 ul li {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.footerBottom2 ul li span {
+  margin-right: 8px;
+}
